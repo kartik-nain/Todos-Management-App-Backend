@@ -8,11 +8,11 @@
 		<version>3.0.0-M4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.in28minutes.rest.webservices</groupId>
-	<artifactId>restful-web-services</artifactId>
+	<groupId>com.kn</groupId>
+	<artifactId>todosapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>restful-web-services</name>
-	<description>Demo project for Spring Boot</description>
+	<name>todos-management-app-backend</name>
+	<description>Spring Boot Backend for Todos Application</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
