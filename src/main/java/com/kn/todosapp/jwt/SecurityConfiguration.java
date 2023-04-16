@@ -41,8 +41,7 @@ public class SecurityConfiguration {
 			.logout()
 	        .logoutUrl("/auth/logout")
 	        .logoutSuccessHandler((request, response, authentication) -> SecurityContextHolder.clearContext());
-		
-		httpSecurity.cors();
+
 		return httpSecurity.build();
 	}
 }
