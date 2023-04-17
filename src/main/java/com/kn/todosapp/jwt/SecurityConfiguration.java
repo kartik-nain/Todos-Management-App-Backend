@@ -38,6 +38,8 @@ public class SecurityConfiguration {
 			.and()
 			.authenticationProvider(authenticationProvider)
 			.addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)  //Calling the jwtAuthFilter before because we first check validation, then set the security context and then call the username password authentication filter
+			.headers(header -> {header.
+                frameOptions().sameOrigin();})
 			.logout()
 	        .logoutUrl("/auth/logout")
 	        .logoutSuccessHandler((request, response, authentication) -> SecurityContextHolder.clearContext());
