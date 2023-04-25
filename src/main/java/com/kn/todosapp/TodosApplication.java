@@ -17,7 +17,7 @@ public class TodosApplication {
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedMethods("*").allowedOrigins("http://localhost:3000/", "https://todos-management-app-frontend-production.up.railway.app/");
+				registry.addMapping("/**").allowedMethods("*").allowedOrigins("*");
 			}
 		};
 	}

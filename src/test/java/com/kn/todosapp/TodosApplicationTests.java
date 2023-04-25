@@ -1,10 +1,10 @@
-package com.in28minutes.rest.webservices.restfulwebservices;
+package com.kn.todosapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RestfulWebServicesApplicationTests {
+class TodosApplicationTests {
 
 	@Test
 	void contextLoads() {

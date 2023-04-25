@@ -29,7 +29,7 @@ public class SecurityConfiguration {
 		httpSecurity
 			.csrf().disable() //Disabling csrf as no sessions will be stored
 			.authorizeHttpRequests() //Configuring which requests to permit and deny
-				.antMatchers("/auth/**").permitAll()  //Permitting these requests
+				.antMatchers("/", "/auth/**").permitAll()  //Permitting root request and any request starting with auth
 				.antMatchers(HttpMethod.OPTIONS,"/**")
                 .permitAll()
 				.anyRequest().authenticated()  //Making sure all other requests are authenticated
