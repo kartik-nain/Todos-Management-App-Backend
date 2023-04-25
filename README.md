@@ -13,3 +13,4 @@ This repository contains the backend implementation of Todos Management Applicat
 * JSON Web Tokens (JWT)
 * BCrypt
 * Maven
+* MySQL
