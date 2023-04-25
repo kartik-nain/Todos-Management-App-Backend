@@ -14,3 +14,4 @@ This repository contains the backend implementation of Todos Management Applicat
 * BCrypt
 * Maven
 * MySQL
+* AWS EC2
