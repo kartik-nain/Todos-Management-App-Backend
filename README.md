@@ -1,5 +1,5 @@
 # Todos Management Application Backend
-This repository contains the backend implementation of Todos Management Application. It is built using Spring Boot 3.0 and provides RESTful APIs to manage todos and users. It includes the following features:
+This repository contains the backend implementation of Todos Management Application. It is built using Spring Boot 3.0 and is hosted on AWS Elastic Beanstalk. It provides RESTful APIs to manage todos and users.
 
 ## Features
 * User registration and login with JWT authentication
@@ -14,4 +14,4 @@ This repository contains the backend implementation of Todos Management Applicat
 * BCrypt
 * Maven
 * MySQL
-* AWS EC2
+* AWS Elastic Beanstalk
